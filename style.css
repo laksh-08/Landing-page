@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+.home {
+  height: 500px;
+  background-color: #1f2937;
+}
+#head {
+  display: flex;
+  justify-content: space-around;
+  
+}
+#head h1 {
+ 
+  font-size: 24px;
+  color:#f9faf8;
+  padding: 40px 120px 0px 0;
+  text-transform: uppercase;
+}
+#head ul{
+    padding: 40px 0 0 0px;
+}
+#head li {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  padding: 0 0 0 80px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.head1 {
+  display: flex;
+  justify-content: space-around;
+}
+.head1 .head2 {
+  margin-top: 80px;
+  padding-left: 50px;
+  width: 400px;
+  text-transform: capitalize;
+}
+.head1 .head2 h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  line-height: 60px;
+}
+.head1 .head2 p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.head1 .head2 button {
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 2px 7px 5px 7px;
+  color: #e5e7eb;
+  height: 35px;
+  width: 100px;
+  background-color: #3882f6;
+  border: #3882f6;
+}
+.head1 .empty {
+  margin-top: 80px;
+
+  background-image: url(images/tourism1.jpeg);
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 400px;
+}
+.container {
+  height: 400px;
+}
+.container h1 {
+  text-transform: capitalize;
+  margin: 30px 0 30px 0;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+.container .images .img1,
+.img2,
+.img3,
+.img4 {
+  height: 150px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.container .images .img1 {
+  background-image: url(images/Eiffel.jpg);
+  background-repeat: no-repeat;
+
+  margin-left: 200px;
+  float: left;
+}
+.container .images .img2 {
+  background-image: url(images/taj.jpg);
+  background-repeat: no-repeat;
+
+  float: left;
+  margin-left: 30px;
+}
+
+.container .images .img3 {
+  background-image: url(images/kerala.jpg);
+  background-repeat: no-repeat;
+
+  float: left;
+  margin-left: 30px;
+}
+
+.container .images .img4 {
+  background-image: url(images/darzeeling.jpg);
+  background-repeat: no-repeat;
+
+  float: left;
+  margin-left: 30px;
+}
+.container .images p {
+  text-align: center;
+  margin-top: 160px;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #1f2937;
+  font-weight: bold;
+}
+.quote {
+  height: 500px;
+  background-color: #e5e7eb;
+}
+.quote p {
+  text-align: justify;
+  text-indent: 60px;
+  padding: 70px 200px 0 200px;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+.quote h1 {
+  text-align: end;
+  font-size: 36px;
+  text-transform: capitalize;
+  color: #1f2937;
+  font-weight: bold;
+  padding-right: 200px;
+}
+.sign {
+  margin: 10%;
+  height: 130px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+.sign .sign1 {
+  margin-top: 30px;
+}
+.sign .sign1 h2,
+p {
+  color: #e5e7eb;
+  text-transform: capitalize;
+}
+.sign button {
+  margin-top: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 2px 7px 5px 7px;
+  color: #e5e7eb;
+  height: 35px;
+  width: 100px;
+  background-color: #3882f6;
+  border: 2px solid #e5e7eb;
+}
+.footer {
+  height: 60px;
+  background-color: #1f2937;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #e5e7eb;
+  text-align: center;
+  padding-top: 30px;
+}
