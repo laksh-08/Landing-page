@@ -10,17 +10,15 @@
 #head {
   display: flex;
   justify-content: space-around;
-  
 }
 #head h1 {
- 
   font-size: 24px;
-  color:#f9faf8;
+  color: #f9faf8;
   padding: 40px 120px 0px 0;
   text-transform: uppercase;
 }
-#head ul{
-    padding: 40px 0 0 0px;
+#head ul {
+  padding: 40px 0 0 0px;
 }
 #head li {
   color: #e5e7eb;
@@ -64,7 +62,6 @@
 }
 .head1 .empty {
   margin-top: 80px;
-
   background-image: url(images/tourism1.jpeg);
   background-repeat: no-repeat;
   height: 250px;
@@ -90,35 +87,31 @@
   border-radius: 10px;
   border: 2px solid black;
 }
+.container .images {
+  display: flex;
+  justify-content: center;
+}
 
 .container .images .img1 {
   background-image: url(images/Eiffel.jpg);
   background-repeat: no-repeat;
-
-  margin-left: 200px;
-  float: left;
+  margin-left: 30px;
 }
 .container .images .img2 {
   background-image: url(images/taj.jpg);
   background-repeat: no-repeat;
-
-  float: left;
   margin-left: 30px;
 }
 
 .container .images .img3 {
   background-image: url(images/kerala.jpg);
   background-repeat: no-repeat;
-
-  float: left;
   margin-left: 30px;
 }
 
 .container .images .img4 {
   background-image: url(images/darzeeling.jpg);
   background-repeat: no-repeat;
-
-  float: left;
   margin-left: 30px;
 }
 .container .images p {
